@@ -1,0 +1,22 @@
+{
+  "name": "helpdesk_mail_server",
+  "description": "Helpdesk SMTP Server",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "10.13.0"
+  },
+  "scripts": {
+    "start": "./run.sh",
+    "send_test_mail": "./send_test_mail.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:danleyb2/helpdesk_mail_server.git"
+  },
+  "dependencies": {
+    "Haraka": "^2.8.23",
+    "axios": "^0.18.0"
+  },
+  "license": "MIT"
+}
