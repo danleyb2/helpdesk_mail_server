@@ -26,12 +26,12 @@ function streamToString(stream, cb) {
 
 exports.hook_queue = function (next, connection) {
 
+    return next(OK, "Email Accepted.");
 
-    next();
 };
 exports.hook_data = function (next, connection) {
     connection.transaction.parse_body = true;
-    next();
+    return next();
 };
 
 
