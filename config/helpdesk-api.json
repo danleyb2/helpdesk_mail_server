@@ -1,11 +1,5 @@
 {
-  "accessKeyId": "access key ID",
-  "secretAccessKey": "secret access key",
-  "helpdeskHost": "http://localhost:3000",
-  "region": "us-west-2",
-  "s3Bucket": "s3-bucket-name",
-  "zipBeforeUpload": true,
-  "fileExtension": ".eml.raw.gzip",
-  "copyAllAddresses": true,
-  "validDomains" : ["danleyb2.online"]
+
+  "helpdeskHost": "http://localhost:3000"
+
 }
